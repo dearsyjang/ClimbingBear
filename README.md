@@ -175,7 +175,7 @@ npm run android
 - **MySql** : RDBMS로 올라오라곰의 사용자, 등산 기록, 등산 달력, 챌린지 등 필요한 데이터를 저장.
 - **AWS**
   - EC2 서비스를 이용하여 Ubuntu 서버를 구축 (호스팅).
-- Google Cloud Storage Cloud : GCS 서비스를 이용하여 산 이미지, 등산 기록을 저장하기 위해 사용.
+- **Google Cloud Storage Cloud** : GCS 서비스를 이용하여 산 이미지, 등산 기록을 저장하기 위해 사용.
 - **WebSocket** : 웹 상에서 쉽게 소켓 통신을 하게 해주는 라이브러리를 활용하여 등산 메이트 매칭, 지역별 그룹 채팅 기능을 구현.
 - **STOMP** : Http에 모델링된 frame 기반의 메세징 프로토콜을 통해 메세지 전송을 좀 더 효율적으로 하기 위해 활용.
   - `STOMP Handler`를 구현하여 Subscribe를 통해 통신하고자 하는 주체(Topic)를 판단하여 실시간, 지속적으로 감시하고 해당 요청이 들어오면 처리하도록 구현. **(Broker 역할 수행)**
